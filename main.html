@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>惠州学院web地理信息系统</title>
+    <link rel="stylesheet" href="./leaflet/leaflet.css">
+    <link rel="stylesheet" href="./bootstrap-5.3.0-alpha1-dist/css/bootstrap.css">
+    <script src="./leaflet/leaflet.js"></script>
+    <script src="./bootstrap-5.3.0-alpha1-dist/js/bootstrap.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="d3.v7.js"></script>
+    <script src="js.js"></script>
+    
+    <link rel="stylesheet" href="css.css">
+   
+</head>
+<body>
+    <div class="latlng_view"><p></p></div>
+    <div id="map"></div>
+    
+    <!-- <div class="layercontrol">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="yx" >
+            <label class="form-check-label" for="yx">
+              影像底图
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="xl" >
+            <label class="form-check-label" for="xl">
+              矢量底图
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="hzu_point" >
+            <label class="form-check-label" for="hzu_point">
+              点
+            </label>
+          </div>
+    </div> -->
+    
+    <script>
+          
+          const map=L.map('map',{
+            
+            center:[23.039356986165267,114.4148075580597],
+            zoom:30,
+            doubleClickZoom:'center'
+            
+        })
+        layercontrol()
+        image_init()
+        mouse_get()
+       // Layercontrol()
+    </script>
+</body>
+</html>

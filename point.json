@@ -1,0 +1,51 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "NAME":"Fuyou",
+          "TYPE": "Hospital"
+        },
+        "geometry": {
+          "coordinates": [
+            114.41656790631129,
+            23.052018378455728
+          ],
+          "type": "Point"
+        },
+        "id": 0
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "NAME": "Huakang",
+          "TYPE": "Hospital"
+        },
+        "geometry": {
+          "coordinates": [
+            114.41797464544044,
+            23.042402413275198
+          ],
+          "type": "Point"
+        },
+        "id": 1
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "NAME":"Aolinpike",
+          "TYPE": "Stadium"
+        },
+        "geometry": {
+          "coordinates": [
+            114.4415734108141,
+            23.035639122463266
+          ],
+          "type": "Point"
+        },
+        "id": 2
+      }
+    ]
+  }
+  
